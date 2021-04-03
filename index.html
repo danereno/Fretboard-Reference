@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js"></script>
+    <title>Fretboard Reference</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Fretboard Reference</h1>
+    </header>
+
+    <div id="frets-bar">
+        <button class="fret-button" id="19-frets">19 Frets</button>
+        <button class="fret-button" id="21-frets">21 Frets</button>
+        <button class="fret-button" id="22-frets">22 Frets</button>
+        <button class="fret-button" id="24-frets">24 Frets</button>
+    </div>
+
+    <div id="mode-bar">
+        <button class="mode-button" id="all">All</button>
+        <button class="mode-button" id="pitch">Pitch</button>
+        <button class="mode-button" id="letter">Letter</button>
+        <button class="mode-button" id="octave">Octave</button>
+    </div>
+
+    <main>
+        <table id="fretboard"></table>
+        <section>
+            <h2>🎸 About 🎸</h2>
+            <hr>
+            <p>Need help learning the layout of the fretboard? Just select how many frets are on your guitar, then select the mode you want to highlight notes in.
+                Hover over a note to see the locations of all similar notes. For example, hovering over F#3 in pitch mode will show you all the places on the fretboard
+                where you can play the exact same pitch. 
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by Danial Madson • <a target="_blank" href="https://github.com/danereno">https://github.com/danereno</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*#region Body */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background: white;
+}
+
+body button {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 2em;
+  background-color: #556071;
+  color: white;
+  font-size: 1.25em;
+  width: 6em;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 8px darkgrey;
+          box-shadow: 0 8px darkgrey;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.active-button {
+  background-color: #363c47;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  -webkit-box-shadow: 0 5px grey;
+          box-shadow: 0 5px grey;
+}
+
+/*#endregion*/
+/*#region Header */
+header {
+  height: 10%;
+  text-align: center;
+  font-size: 1.5em;
+  background: #282c34;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/*#endregion*/
+/*#region Frets Bar */
+#frets-bar {
+  height: 10%;
+  text-align: center;
+}
+
+#frets-bar button {
+  margin-top: 1.5em;
+}
+
+/*#endregion*/
+/*#region Mode Bar */
+#mode-bar {
+  height: 10%;
+  text-align: center;
+}
+
+/*#endregion*/
+/*#region Main */
+main {
+  height: auto;
+}
+
+main table {
+  table-layout: fixed;
+  width: 105em;
+  margin: auto;
+  text-align: center;
+}
+
+main section {
+  text-align: center;
+  width: 50%;
+  margin: 2em auto auto auto;
+}
+
+main section h2 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+main section hr {
+  margin: 0.5em auto 1em auto;
+  width: 25%;
+  height: 1px;
+  background: black;
+}
+
+main section p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.blank:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  outline: 1px solid black;
+  width: 100%;
+  -webkit-transform: translateY(-1.5em);
+          transform: translateY(-1.5em);
+  z-index: -1;
+}
+
+.fret {
+  padding: 5px;
+  opacity: 0%;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 1em;
+  height: 1.5em;
+  margin: 0 0.1em 0 0.1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fret-number {
+  opacity: .8;
+  margin-top: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*#endregion*/
+/*#region Footer */
+footer {
+  height: 10%;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: #282c34;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+  margin-top: 2em;
+  color: white;
+}
+
+footer p a:visited {
+  color: white;
+}
+
+/*#endregion*/
+/*# sourceMappingURL=style.css.map */
